@@ -1,0 +1,209 @@
+.company {
+    margin: auto;
+    line-height: 0px;
+    height: 50px;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 5px;
+    color: white;
+    background-color: rgb(225, 18, 215);
+    top: 40px;
+}
+
+.team {
+    margin: auto;
+    line-height: 0px;
+    height: 50px;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 5px;
+    color: white;
+    background-color: rgb(225, 18, 215);
+}
+
+.text p {
+    margin: 0;
+    padding: 0;
+    max-inline-size: 110ch;
+    color: #100f10;
+    font-size: clamp(1rem, 1vw, 1rem);
+    word-wrap: balance;
+    margin-inline: auto;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+}
+
+.description {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+hr.new {
+    border-top: 2px dashed rgb(225, 18, 215);
+}
+
+.meeting {
+    margin: auto;
+    width: fit-content;
+}
+
+.avatar {
+    border-radius: 50%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    top: 10%;
+}
+
+.column {
+    flex: auto;
+    padding: 5px;
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 15px;
+}
+
+.container {
+    min-height: calc(100vh - 58px - 12vh);
+    position: relative;
+    margin-top: 88px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.my-1 {
+    margin: 5px 0;
+}
+
+.aside {
+    margin-top: 0;
+    display: flex;
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    right: 0;
+}
+
+.ribbon3 {
+    background-color: rgb(225, 18, 215);
+    position: absolute;
+    top: -85px;
+    right: -20px;
+    height: 42px;
+    width: 120px;
+    text-align: center;
+    line-height: 40px;
+    color: rgb(225, 18, 215);
+    font-weight: bold;
+}
+
+
+.aside2 {
+    margin-top: 0;
+    display: flex;
+    position: relative;
+    width: 300px;
+    height: 150px;
+    right: 0;
+}
+
+.ribbon2 {
+    background-color: rgb(225, 18, 215);
+    position: absolute;
+    top: 48px;
+    height: 42px;
+    width: 100px;
+    text-align: center;
+    line-height: 40px;
+    color: rgb(225, 18, 215);
+    font-weight: bold;
+
+    left: -3%;
+}
+
+.ribbon3:before,
+.ribbon3:after {
+    content: '';
+    position: absolute;
+    height: 0;
+    width: 0;
+    border-style: solid;
+    top: 0;
+}
+
+.ribbon3:before {
+    border-width: 20px 3px 22px 20px;
+    border-color: rgb(225, 18, 215) transparent rgb(225, 18, 215) transparent;
+    left: -20px;
+}
+
+
+.ribbon2:before,
+.ribbon2:after {
+    content: '';
+    position: absolute;
+    height: 0;
+    width: 0;
+    border-style: solid;
+    top: 0;
+}
+
+.ribbon2:after {
+    border-width: 20px 16px 22px 20px;
+    border-color: rgb(225, 18, 215) transparent rgb(225, 18, 215) rgb(225, 18, 215);
+    right: -25px;
+}
+
+.aside4 {
+    margin-top: 0;
+    display: flex;
+    position: relative;
+    width: 300px;
+    height: 150px;
+    right: 0;
+}
+
+.ribbon4 {
+    background-color: rgb(225, 18, 215);
+    position: absolute;
+    top: 48px;
+    /* right: 105px; */
+    height: 42px;
+    width: 100px;
+    text-align: center;
+    line-height: 40px;
+    color: rgb(225, 18, 215);
+    font-weight: bold;
+    /* flex-direction: column; */
+    left: -3%;
+}
+
+.ribbon4:after,
+.ribbon4::before {
+    content: '';
+    position: absolute;
+    height: 0;
+    width: 0;
+    border-style: solid;
+    top: 0;
+}
+
+.ribbon4:before {
+    border-width: 20px 16px 22px 20px;
+    border-color: rgb(225, 18, 215) transparent rgb(225, 18, 215) rgb(225, 18, 215);
+    right: -25px;
+}
